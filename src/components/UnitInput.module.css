@@ -1,0 +1,11 @@
+.child {
+  pointer-events: auto;
+}
+
+.parent:has(.child:nth-of-type(1):hover) {
+  background: oklch(0.371 0 0);
+}
+
+.parent:has(.child:focus) {
+  outline: 1px solid #3b82f6;
+}

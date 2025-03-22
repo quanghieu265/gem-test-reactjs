@@ -1,0 +1,199 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders UnitInput component 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full flex flex-col gap-6 p-4 rounded-lg w-48"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Unit
+      </span>
+      <div
+        class="flex bg-neutral-800 rounded-md w-[50%] p-[2px]"
+      >
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors bg-neutral-600 text-white"
+        >
+          %
+        </button>
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors text-neutral-400 hover:text-white"
+        >
+          px
+        </button>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Value
+      </span>
+      <div
+        class="flex items-center justify-between bg-neutral-800 rounded-md w-[50%] p-[2px] transition-colors _parent_3a7e0b"
+      >
+        <button
+          class="px-3 py-1 transition-colors rounded-l-md relative group text-neutral-600 bg-neutral-900 cursor-not-allowed"
+          disabled=""
+        >
+          -
+          <div
+            class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-neutral-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity"
+          >
+            Value must greater than 0
+            <div
+              class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-neutral-800"
+            />
+          </div>
+        </button>
+        <input
+          class="w-8 bg-transparent text-center text-white text-sm focus:outline-none _child_3a7e0b"
+          type="text"
+          value="0"
+        />
+        <button
+          class="px-3 py-1 transition-colors rounded-r-md relative group  text-neutral-400 hover:text-white hover:bg-neutral-700 active:bg-neutral-600 active:text-white"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders with default value 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full flex flex-col gap-6 p-4 rounded-lg w-48"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Unit
+      </span>
+      <div
+        class="flex bg-neutral-800 rounded-md w-[50%] p-[2px]"
+      >
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors bg-neutral-600 text-white"
+        >
+          %
+        </button>
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors text-neutral-400 hover:text-white"
+        >
+          px
+        </button>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Value
+      </span>
+      <div
+        class="flex items-center justify-between bg-neutral-800 rounded-md w-[50%] p-[2px] transition-colors _parent_3a7e0b"
+      >
+        <button
+          class="px-3 py-1 transition-colors rounded-l-md relative group text-neutral-400 hover:text-white hover:bg-neutral-700 active:bg-neutral-600 active:text-white"
+        >
+          -
+        </button>
+        <input
+          class="w-8 bg-transparent text-center text-white text-sm focus:outline-none _child_3a7e0b"
+          type="text"
+          value="50"
+        />
+        <button
+          class="px-3 py-1 transition-colors rounded-r-md relative group  text-neutral-400 hover:text-white hover:bg-neutral-700 active:bg-neutral-600 active:text-white"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders with px unit 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full flex flex-col gap-6 p-4 rounded-lg w-48"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Unit
+      </span>
+      <div
+        class="flex bg-neutral-800 rounded-md w-[50%] p-[2px]"
+      >
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors text-neutral-400 hover:text-white"
+        >
+          %
+        </button>
+        <button
+          class="w-[50%] px-3 py-1 rounded-md text-sm transition-colors bg-neutral-600 text-white"
+        >
+          px
+        </button>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-between"
+    >
+      <span
+        class="text-neutral-300 text-sm"
+      >
+        Value
+      </span>
+      <div
+        class="flex items-center justify-between bg-neutral-800 rounded-md w-[50%] p-[2px] transition-colors _parent_3a7e0b"
+      >
+        <button
+          class="px-3 py-1 transition-colors rounded-l-md relative group text-neutral-600 bg-neutral-900 cursor-not-allowed"
+          disabled=""
+        >
+          -
+          <div
+            class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-neutral-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity"
+          >
+            Value must greater than 0
+            <div
+              class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-neutral-800"
+            />
+          </div>
+        </button>
+        <input
+          class="w-8 bg-transparent text-center text-white text-sm focus:outline-none _child_3a7e0b"
+          type="text"
+          value="0"
+        />
+        <button
+          class="px-3 py-1 transition-colors rounded-r-md relative group  text-neutral-400 hover:text-white hover:bg-neutral-700 active:bg-neutral-600 active:text-white"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
